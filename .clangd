@@ -1,0 +1,4 @@
+# clangd 项目级配置（兜底：即使 settings.json 参数未生效，
+# 此文件也能让 clangd 找到编译数据库；CubeMX 重新生成代码不会覆盖它）
+CompileFlags:
+  CompilationDatabase: build/Debug

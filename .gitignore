@@ -1,0 +1,56 @@
+# 编译产物
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.su
+
+# CMake 缓存
+.cache/
+.cmake/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# IDE
+.vscode/c_cpp_properties.json
+.vscode/ipch/
+.vscode/.browse.c_cpp.db*
+.vscode/settings.json
+
+# 调试器
+*.jdebug
+*.jdebug.user
+JLinkLog.txt
+Ozone/
+
+# Keil / IAR
+*.uvprojx
+*.uvoptx
+*.uvguix.*
+Objects/
+Listings/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 临时文件
+*.bak
+*.tmp
+*.log
+*.orig
+# ===== CMSIS 未使用的模块（CubeMX 自动复制但工程不用） =====
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/docs/
+Drivers/CMSIS/Lib/IAR/
